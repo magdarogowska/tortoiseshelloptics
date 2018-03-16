@@ -4,11 +4,15 @@ body {
   font-family:Helvetica, sans-serif;
 }
 
+/* This seciton styles the top-most container */
+
 .topbg {
   background-image: url("../pictures/glasses-bg.png");
   background-size:cover;
   height:30rem;
 }
+
+/* This section styles the top navigation bar */
 
 .topnav {
   position:relative;
@@ -37,4 +41,44 @@ body {
   height:1.5rem;
   width:auto;
   padding:0 1rem 0 2rem;
+}
+
+/* This section styles three services and their respective icons */
+
+.allservices {
+  display:flex;
+  justify-content:center;
+  align-items:top;
+  flex-direction:row;
+}
+
+.service {
+  margin:3rem;
+  height:8rem;
+  width:8rem;
+  text-align:center;
+}
+
+.serviceicon {
+  margin:auto;
+  height:5rem;
+  width:5rem;
+}
+
+#paperimg {
+height:auto;
+width:3.5rem;
+margin:auto;
+}
+
+#rulerimg {
+  margin:auto;
+  height: auto;
+  width:5rem;
+}
+
+#truckimg {
+  margin:auto;
+  height:auto;
+  width:5rem;
 }
